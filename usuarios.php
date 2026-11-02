@@ -49,7 +49,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
-    if ($acao === 'excluir') {
+    if ($acao === 'excluir') 
+	{
         $id = (int)($_POST['id'] ?? 0);
         if ($id === (int)$_SESSION['usuario_id']) {
             flash('Você não pode excluir o próprio usuário.', 'erro');
