@@ -1,0 +1,14 @@
+Gestão 360 - Controle de Estoque (HTML + CSS + JavaScript + PHP)
+
+COMO RODAR NO WINDOWS
+1. Instale o PHP e confirme que o comando php funciona no terminal.
+2. Abra o PowerShell nesta pasta do projeto.
+3. Execute: php -S localhost:8000
+4. Abra http://localhost:8000 no navegador.
+5. Contas de teste:
+   Administrador — admin@gestao360.com.br   Senha: password
+   Operador — operador@gestao360.com.br   Senha: operador123
+   Caixa — caixa@gestao360.com.br   Senha: caixa123
+   Cliente — cliente@gestao360.com.br   Senha: cliente123
+
+Para parar o servidor, volte ao PowerShell e pressione Ctrl+C.
